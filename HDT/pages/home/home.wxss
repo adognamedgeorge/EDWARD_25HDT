@@ -1,0 +1,29 @@
+/* pages/home/home.wxss */
+.top {
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: rgb(85, 85, 209);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 0 40rpx 0 20rpx;
+}
+
+.top_lf {
+  display: flex;
+}
+
+.lf_text {
+  font-size: 50rpx;
+  margin: 0 20rpx;
+}
+
+.top_rt {
+  height: 80%;
+}
+
+.rt_img {
+  width: 50rpx;
+  height: 50rpx;
+}

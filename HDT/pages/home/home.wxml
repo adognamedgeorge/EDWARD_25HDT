@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<!--pages/home/home.wxml-->
+<view class="page">
+  <view class="top">
+    <view class="top_lf">
+      <text class="lf_text">国家电网</text>
+      <view class="lf_add" bindtap="getLocat">{{city}}</view>
+    </view>
+    <view class="top_rt">{{province}}
+      <image class="rt_img" src="../../resources/img/search.png" />
+    </view>
+  </view>
+</view>
+
