@@ -3,7 +3,10 @@
     "pages/home/home",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/component/search/search"
+    "pages/component/search/search",
+    "pages/mine/mine",
+    "pages/customer/customer",
+    "pages/mall/mall"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -29,10 +32,22 @@
         "selectedIconPath": "./resources/img/homed.png"
       },
       {
+        "pagePath": "pages/mall/mall",
+        "text": "商城",
+        "iconPath": "./resources/img/home.png",
+        "selectedIconPath": "./resources/img/homed.png"
+      },
+      {
         "pagePath": "pages/logs/logs",
         "text": "日志",
         "iconPath": "./resources/img/log.png",
         "selectedIconPath": "./resources/img/loged.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./resources/img/mine.png",
+        "selectedIconPath": "./resources/img/mined.png"
       }
     ]
   }

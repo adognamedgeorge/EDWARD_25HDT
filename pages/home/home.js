@@ -98,13 +98,26 @@ Page({
       }
     })
   },
-
+  // 跳转到搜索二级页
   bindToSearch (e) {
     wx.navigateTo({
       url: "../component/search/search"
     })
   },
-
+  // 跳转到我的tabbar页
+bindToMine (e) {
+  wx.showLoading({
+    title: 'loading',
+    success: function () {
+      wx.switchTab({
+        url: '../mine/mine'
+      })
+    }
+  })
+  setTimeout(function () {
+    wx.hideLoading()
+  }, 500)
+},
   /**
    * 生命周期函数--监听页面加载
    */
